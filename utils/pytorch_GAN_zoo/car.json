@@ -1,0 +1,13 @@
+{
+  "pathDB": "./Data/car_crop/car_crop_train_128/",
+  "config": {
+    "maxIterAtScale": [
+      48000,
+      96000,
+      96000,
+      96000,
+      96000,
+      96000
+    ]
+  }
+}

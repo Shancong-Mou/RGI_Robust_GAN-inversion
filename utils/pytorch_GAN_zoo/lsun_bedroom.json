@@ -1,0 +1,13 @@
+{
+  "pathDB": "./Data/lsun/train_128/",
+  "config": {
+    "maxIterAtScale": [
+      48000,
+      96000,
+      96000,
+      96000,
+      96000,
+      96000
+    ]
+  }
+}

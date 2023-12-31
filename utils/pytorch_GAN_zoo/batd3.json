@@ -1,0 +1,13 @@
+{
+  "pathDB": "./Data/BTAD/BTAD3/train/good/",
+  "config": {
+    "maxIterAtScale": [
+      48000,
+      96000,
+      96000,
+      96000,
+      96000,
+      96000
+    ]
+  }
+}

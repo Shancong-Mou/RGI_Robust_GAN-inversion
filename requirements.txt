@@ -1,0 +1,11 @@
+numpy
+scipy
+visdom
+h5py
+nevergrad
+numpy
+Pillow
+tqdm
+matplotlib
+opencv-python
+FyeldGenerator
