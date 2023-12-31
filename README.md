@@ -39,7 +39,7 @@ After training, the trained model chekpoint will be stored at: ```./utils/pytorc
 
 ### **Train**
 
-For Reproducibility purpose,  please download the pretrained model through https://drive.google.com/file/d/1q7qfPvkP6GJk7JkDktZtPKjJuZ64iQUo/view?usp=sharing, named 'output_networks.zip'. unzip and and put it under 
+For Reproducibility purpose,  please download the pretrained model through https://drive.google.com/drive/folders/11xZ8RgDvHjBF4arnQ4R0tQoADCo9pXi-?usp=sharing, named 'output_networks.zip'. unzip and and put it under 
 
 ```shell
 ./utils/pytorch-gan-zoo/
@@ -93,7 +93,7 @@ Notice that the result might be slightly different from the result reported due 
 
 We use a PGGAN model from [pytorch-gan-zoo](https://github.com/facebookresearch/pytorch_GAN_zoo). 
 
-For Reproducibility purpose,  please download the pretrained model through https://drive.google.com/file/d/1q7qfPvkP6GJk7JkDktZtPKjJuZ64iQUo/view?usp=sharing, named 'output_networks.zip'. unzip and and put it under 
+For Reproducibility purpose,  please download the pretrained model through https://drive.google.com/drive/folders/11xZ8RgDvHjBF4arnQ4R0tQoADCo9pXi-?usp=sharing, named 'output_networks.zip'. unzip and and put it under 
 
 ```shell
 ./utils/pytorch-gan-zoo/
