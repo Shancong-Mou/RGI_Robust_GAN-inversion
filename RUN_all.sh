@@ -24,9 +24,9 @@ python Semantic_inpainting.py --lam_mask_RGI  0.9 --lam_mask_R_RGI  0.9 --produc
 # central block missing
 python Semantic_inpainting.py --lam_mask_RGI  0.7 --lam_mask_R_RGI  0.7 --product_name LSUN_bedroom --gan_mdl_name lsun_bedroom --data_dir './Data/lsun/LSUN_bedroom_test/' --missing_size 16 --loss_type L1 --iterations 3000 --lam_dis 0.01 --fix_mask
 # random missing
-python Semantic_inpainting.py --lam_mask_RGI  0.8 --lam_mask_R_RGI  0.7 --product_name LSUN_bedroom --gan_mdl_name lsun_bedroom --data_dir './Data/lsun/LSUN_bedroom_test/'   --loss_type L1 --iterations 3000  --fix_mask --lam_dis 10.0 --missing_type random
+python Semantic_inpainting.py --lam_mask_RGI  1.2 --lam_mask_R_RGI  1.2 --product_name LSUN_bedroom --gan_mdl_name lsun_bedroom --data_dir './Data/lsun/LSUN_bedroom_test/'   --loss_type L1 --iterations 3000  --fix_mask --lam_dis 0.0 --missing_type random
 # irregular missing
-python Semantic_inpainting.py --lam_mask_RGI  1.2 --lam_mask_R_RGI  1.2 --product_name LSUN_bedroom --gan_mdl_name lsun_bedroom --data_dir './Data/lsun/LSUN_bedroom_test/' --missing_size 16 --loss_type L1 --iterations 3000 --lam_dis 0 --fix_mask --lam_dis 0.1 --missing_type irregular_mask
+python Semantic_inpainting.py --lam_mask_RGI  0.8 --lam_mask_R_RGI  0.7 --product_name LSUN_bedroom --gan_mdl_name lsun_bedroom --data_dir './Data/lsun/LSUN_bedroom_test/' --missing_size 16 --loss_type L1 --iterations 3000 --fix_mask --lam_dis 10.0 --missing_type irregular_mask
 
 # Anomaly detection
 python Anomaly_segmentation.py --lam_mask_RGI  0.4 --lam_mask_R_RGI  0.12 # small example
